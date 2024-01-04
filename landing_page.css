@@ -11,10 +11,9 @@ body {
 .container {
     display: flex;
     background: hsl(216deg 28.74% 17.06%);
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
-
-
+    
 }
 
 .header {
@@ -43,7 +42,6 @@ a:visited {
 
 .main {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 60px;
     margin-top: 40px;
 }
@@ -117,18 +115,24 @@ button {
  .box-four img {
     height: 140px;
     width: 140px;
+    border: rgb(0, 183, 255) 4px outset;
  }
 
 .container-three {
     display: flex;
-    background-color: rgb(130, 127, 127);
+    background-color: hsl(222.86deg 15.56% 91.18%);
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 100px 250px;
     font-size: 40px;
     color: rgba(0, 0, 0, 0.709);
     flex-direction: column;
 } 
+
+h1 {
+    font-style: oblique;
+    
+}
 
 h2 {
     margin-left: 480px;
@@ -137,6 +141,7 @@ h2 {
     font-size: 45px;
     font-style: italic;
 }
+
 
 .container-four {
     display: flex;
@@ -149,7 +154,7 @@ h2 {
 
 .final-call {
     display: flex;
-    background-color: blue;
+    background-color: #3882f6;
     padding: 20px 40px;
     margin: 90px;
     justify-content: center;
@@ -162,13 +167,14 @@ h2 {
 }    
 
 .final-button {
-    padding: 4px 40px;
+    padding: 8px 40px;
     color: white;
-    background-color: blue;
+    background-color: #3882f6;
     margin-right: 90px;
     font-weight: bold;
     display: flex;
-    border-color: white;
+    white-space: nowrap;
+    font-size: 18px;
 }
 
 .content {
@@ -179,4 +185,9 @@ h2 {
 
 .content p {
     font-weight: bolder;
+}
+
+.container-three p {
+    font-style: light italic;
+    font-size: 36px;
 }
